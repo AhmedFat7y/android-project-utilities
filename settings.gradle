@@ -1,0 +1,4 @@
+include ':app', ':effectiveNavigation', ':extras:ProgressWheel-master'
+include ":extras:CardFlipAnimation"
+include ":extras:effectiveNavigation"
+project(':effectiveNavigation').projectDir = new File('extras/effectiveNavigation')
